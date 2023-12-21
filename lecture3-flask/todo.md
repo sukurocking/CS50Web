@@ -1,0 +1,10 @@
+- [x] Minimal flask app saying "hello, world!" where an html page is rendered
+- [x] flask app: hello, person_name
+- [ ] optimize the flask app saying hello, person name with templates
+- [ ] use the POST method for privacy
+- [ ] create a site for sports registrations: 
+    - [ ] register page for name and sport
+    - [ ] registrants page
+    - [ ] using layout.html to be more succint and avoid duplicating html codes
+    - [ ] save the registrants to a Python dictionary and display to user
+    - [ ] save the registrants to a database (sqlite)

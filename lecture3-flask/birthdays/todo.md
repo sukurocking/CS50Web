@@ -1,0 +1,4 @@
+- [x] Create the form for inputting Name, Month, Day.
+- [x] The form submitted should insert entry into the table
+- [ ] In the index.html page, we should display all the entries in the sqlite table
+- [ ] 
