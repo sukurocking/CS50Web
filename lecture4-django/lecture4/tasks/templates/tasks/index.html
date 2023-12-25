@@ -11,11 +11,7 @@
         {% for task in tasks_list %}
             <li>{{ task }}</li>
         {% endfor %}
-        <form method="post">
-            {% csrf_token %}
-            {{ form.as_p }}
-            <button type="submit">Add Task</button>
-        </form>
+        <a href="{% url 'tasks:add' %}">Add a new task</a>
     </ul>
 </body>
 </html>
